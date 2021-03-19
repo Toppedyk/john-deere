@@ -6,12 +6,24 @@
   color: #FDDA01;
 }
 
-  @media only screen and(min-width:768px){
-    .empower{
-    position: absolute;
-    bottom: -3em;
+@media (max-width:767px) {
+  .hidden{
+    display: none;
     }
+}
+
+@media (max-width:767px){
+  .footer-title{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
+
+
+  .footer-title:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)
+  }
+}
+
 
 .tractor1{
   background-image: url('./Pictures/see-spray-left.png') ;
